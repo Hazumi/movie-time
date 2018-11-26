@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+
+    <h2>{{ data.Title }}</h2>
+
+    <img alt="{{ data.Title }}" src="{{ data.Poster }}">
+
+    <ul>
+      <li>{{ data.Year }}</li>
+      <li>{{ data.Rated }}</li>
+      <li>{{ data.Released }}</li>
+      <li>{{ data.Runtime }}</li>
+      <li>{{ data.Genre }}</li>
+      <li>{{ data.Director }}</li>
+      <li>{{ data.Writer }}</li>
+      <li>{{ data.Actors }}</li>
+      <li>{{ data.Plot }}</li>
+      <li>{{ data.Language }}</li>
+      <li>{{ data.Country }}</li>
+      <li>{{ data.Metascore }}</li>
+      <li>{{ data.imdbRating }}</li>
+      <li>{{ data.imdbVotes }}</li>
+    </ul>
+
+    <a class="btn btn-secondary" href="/">Back</a>
+
+  </body>
+</html>
